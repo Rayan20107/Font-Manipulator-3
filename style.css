@@ -1,0 +1,95 @@
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.note
+{
+    font-size: 14px;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.copyright-footer
+{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    color: white;
+    line-height: 3;
+    text-align: center;
+    animation-name: copyrightfooteranimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes copyrightfooteranimation
+    {
+        0%
+        {
+            color: red;
+        }
+
+        10%
+        {
+            color: blue;
+        }
+
+        20%
+        {
+            color: green;
+        }
+
+        30%
+        {
+            color: purple;
+        }
+
+        40%
+        {
+            color: pink;
+        }
+
+        50%
+        {
+            color: aquamarine;
+        }
+
+        60%
+        {
+            color: black;
+        }
+
+        70%
+        {
+            color: yellow;
+        }
+
+        80%
+        {
+            color: orange;
+        }
+
+        90%
+        {
+            color:  brown;
+        }   
+
+        100%
+        {
+            color: whitesmoke;
+        }
+    }
+
+canvas
+{
+    border: 5px solid black;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 25px;
+}
